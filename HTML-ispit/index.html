@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Turistička agencija "Avanturist"</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Turistička agencija-Avanturist">
+        <link type="image/png" sizes="16x16" rel="icon" href="./multimedia/images/logo/mail.png">
+        <style>
+            section {
+                border: 2px solid #ccc;
+                border-radius: 21px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                background-color: #f9f9f9;
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+            .wrapper {
+                border: 2px solid #ccc;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                background-color: #f9f9f9;
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 768px;
+                border-radius: 21px;
+                border: 2px;
+            }
+            .input {
+                width: 100%;
+                border-radius: 0px;
+                border: none;
+                background-color: whitesmoke;
+                color: black;
+                font-family: monospace;
+            }
+            p {
+                font-family: 'Times New Roman', Times, serif;
+            }
+            h1, h2 {
+                font-family: cursive;
+            }
+            .navi {
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="wrapper">
+            <h1>Turistička agencija "Avanturist"</h1>
+        </header>
+            <nav class="wrapper">
+                <ul class="navi" style="list-style: none; display: flex; gap: 25px; padding: 0;">
+                    <li><a href="#o-nama">O nama</a></li>
+                    <li><a href="#naše-djelatnosti">Naše djelatnosti</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+                <hr>
+            </nav>
+        <main class="wrapper">
+            <h1>Turistička agencija "Avanturist"</h1>
+            <section id="o-nama">
+                <h2>O nama</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod ut ante eu feugiat. Pellentesque in lobortis dui, dictum 
+                    luctus ante. Morbi sit amet orci sed ante viverra dictum. Quisque faucibus velit nec metus bibendum, eget egestas ex eleifend. 
+                    Mauris varius aliquam leo quis feugiat. Sed vitae posuere nulla, nec efficitur arcu. Sed luctus ligula ut pellentesque ultrices. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse laoreet lacus eget imperdiet venenatis. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus in hendrerit velit, eget convallis risus. 
+                    Etiam sapien erat, pellentesque eget rhoncus id, semper commodo diam. Phasellus tristique felis nec dolor euismod, id ornare 
+                    lectus mollis. In augue ipsum, ultricies et lacus a, finibus aliquet orci. Phasellus nisl ex, posuere eget turpis at, blandit 
+                    viverra nunc. Fusce eu dignissim ipsum, non volutpat justo.
+                </p>
+                <img src="./multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="O nama" >
+            </section>
+            <section id="naše-djelatnosti">
+                <h2>Naše djelatnosti</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod ut ante eu feugiat. Pellentesque in lobortis dui, dictum 
+                    luctus ante. Morbi sit amet orci sed ante viverra dictum. Quisque faucibus velit nec metus bibendum, eget egestas ex eleifend. 
+                    Mauris varius aliquam leo quis feugiat. Sed vitae posuere nulla, nec efficitur arcu. Sed luctus ligula ut pellentesque ultrices. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse laoreet lacus eget imperdiet venenatis. 
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus in hendrerit velit, eget convallis risus. 
+                    Etiam sapien erat, pellentesque eget rhoncus id, semper commodo diam. Phasellus tristique felis nec dolor euismod, id ornare 
+                    lectus mollis. In augue ipsum, ultricies et lacus a, finibus aliquet orci. Phasellus nisl ex, posuere eget turpis at, blandit 
+                    viverra nunc. Fusce eu dignissim ipsum, non volutpat justo.
+                </p>
+                <img src="./multimedia/images/stvari/adventure.jpg" alt="Naše djelatnosti">
+            </section> <!--img src="slike/o-nama.jpg" alt="O nama" width="300"-->
+            <section id="kontakt">
+                <h2>Kontakt</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Ime i Prezime:</label>
+                        <input class="input" type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input class="input" type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="Message">Poruka:</label>
+                        <textarea class="input" name="Message" id="Message" rows="7" cols="10" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Pošalji poruku</button>
+                    </div>
+                </form>
+            </section>
+            <hr>
+        </main>
+        <footer class="wrapper">
+            <p>Avanturist &copy; 2025.</p>
+                <a href="mailto:jurica.milicevic999@gmail.com">
+                    <img src="./multimedia/images/logo/mail.png" 
+                        alt="Pošalji e-mail" 
+                        width="32" 
+                        height="32">
+                </a>
+        </footer>
+    </body>
+
+</html>
